@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=World of Padman
+Comment=Quake 3 mod for linux
+Comment[pl]=Quake 3 mod dla Linuksa
+Exec=WoP
+Icon=wop
+Terminal=false
+Type=Application
+Categories=Game;X-FPPGame;
+# vi: encoding=utf-8
