@@ -53,7 +53,7 @@ tar xf wop-engine.x86_64.tar -C $RPM_BUILD_ROOT%{_datadir}/%{name}
 install %{SOURCE2} $RPM_BUILD_ROOT%{_desktopdir}
 install wop.png $RPM_BUILD_ROOT%{_pixmapsdir}
 install bin/Linux/x86/WoP $RPM_BUILD_ROOT%{_datadir}/%{name}
-ln -sf ../..%{_datadir}/%{name}/WoP $RPM_BUILD_ROOT%{_bindir}/WoP
+ln -sf %{_datadir}/%{name}/WoP $RPM_BUILD_ROOT%{_bindir}/WoP
 
 %clean
 rm -rf $RPM_BUILD_ROOT
